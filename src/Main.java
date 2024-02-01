@@ -7,12 +7,12 @@ public class Main {
         int payment = 1000;
         int bonus;
         if (payment >= 1000) {
-         bonus = payment/100;
-                } else {
-             bonus = 0;
+            bonus = payment / 100;
+        } else {
+            bonus = 0;
         }
-       int balance = initialBalance + payment + bonus;
+        int balance = initialBalance + payment + bonus;
         System.out.println("Ваш баланс " + balance + " рублей");
 
-        }
     }
+}
